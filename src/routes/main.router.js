@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { users } from "./users/users.router.js";
+import { characters } from "./users/characters.router.js";
 
 export const router = Router();
 
-router.use("/users", users);
+router.use("/characters", characters);
