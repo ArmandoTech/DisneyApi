@@ -1,6 +1,8 @@
 import { Router } from "express";
-import { characters } from "./users/characters.router.js";
+import { auth } from "./auth/auth.router.js";
+import { characters } from "./characters/characters.router.js";
 
 export const router = Router();
 
 router.use("/characters", characters);
+router.use("/auth", auth);
