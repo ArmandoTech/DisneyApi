@@ -1,9 +1,9 @@
-import { createCharacter } from "../../../utils/createCharacter.js";
+import { getAllCharacters } from "../../../utils/characters/getAllCharacters.js";
 
 export const getAllCharactersController = async (req, res, next) => {
 	try {
-		const character = await createCharacter();
-		res.status(200).json(character);
+		const characters = await getAllCharacters();
+		res.status(200).json(characters);
 	} catch (error) {
 		next(error);
 	}

@@ -14,3 +14,6 @@ export const REQUIRED_EMAIL_OR_NAME = "Debe ingresar el email y su nombre";
 export const UNREGISTERED_USER = "Usuario no registrado";
 export const USER_NOT_VERIFIED = "El usuario no está verificado";
 export const BAD_CREDENTIALS = "Contraseña incorrecta";
+export const CHARACTER_CREATED = "Personaje creado correctamente";
+export const CHARACTER_DELETED = "Personaje eliminado correctamente";
+export const CHARACTER_UPDATED = "Personaje actualizado correctamente";
