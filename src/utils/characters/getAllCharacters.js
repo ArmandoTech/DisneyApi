@@ -3,7 +3,7 @@ import { Character } from "../../dbRelations.js";
 export const getAllCharacters = async queries => {
 	const filters = addQueriesFind(queries);
 	return await Character.findAll({
-		attributes: ["image", "name"],
+		attributes: ["id", "image", "name"],
 		where: { ...filters }
 	});
 };

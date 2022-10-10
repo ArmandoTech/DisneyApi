@@ -17,3 +17,6 @@ export const BAD_CREDENTIALS = "Contraseña incorrecta";
 export const CHARACTER_CREATED = "Personaje creado correctamente";
 export const CHARACTER_DELETED = "Personaje eliminado correctamente";
 export const CHARACTER_UPDATED = "Personaje actualizado correctamente";
+export const MOVIE_CREATED = "Película creada correctamente";
+export const MOVIE_UPDATED = "Película actualizada correctamente";
+export const MOVIE_DELETED = "Película eliminada correctamente";
