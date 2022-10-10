@@ -1,18 +1,18 @@
 import { connDb } from "./db.js";
 import { defineCharacters } from "./models/Character.js";
-import { defineGender } from "./models/Gender.js";
+import { defineGenre } from "./models/Genre.js";
 import { defineMovies } from "./models/movie.js";
 import { defineUser } from "./models/User.js";
 
 // definir modelos
 defineCharacters(connDb);
 defineMovies(connDb);
-defineGender(connDb);
+defineGenre(connDb);
 defineUser(connDb);
 
 export const { Character } = connDb.models;
 export const { Movie } = connDb.models;
-export const { Gender } = connDb.models;
+export const { Genre } = connDb.models;
 export const { User } = connDb.models;
 
 // Associations
@@ -21,6 +21,6 @@ export const { User } = connDb.models;
 Character.belongsToMany(Movie, { through: "CharacterMovie" });
 Movie.belongsToMany(Character, { through: "CharacterMovie" });
 
-// One to many Gender and Movies
-Gender.hasMany(Movie);
-Movie.belongsTo(Gender);
+// One to many Genre and Movies
+Genre.hasMany(Movie);
+Movie.belongsTo(Genre);

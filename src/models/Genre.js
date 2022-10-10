@@ -1,8 +1,8 @@
 import { DataTypes } from "sequelize";
 
-export const defineGender = sequelize => {
+export const defineGenre = sequelize => {
 	sequelize.define(
-		"Gender",
+		"Genre",
 		{
 			name: {
 				type: DataTypes.STRING,
