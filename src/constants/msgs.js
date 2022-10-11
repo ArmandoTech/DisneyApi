@@ -20,3 +20,4 @@ export const CHARACTER_UPDATED = "Personaje actualizado correctamente";
 export const MOVIE_CREATED = "Película creada correctamente";
 export const MOVIE_UPDATED = "Película actualizada correctamente";
 export const MOVIE_DELETED = "Película eliminada correctamente";
+export const CHECK_EMAIL = "Se ha enviado un mensaje de bienvenida a su correo";
