@@ -23,3 +23,13 @@
 - Get: Returns all movies
 - Patch: Update a movie
 - Delete: Delete a movie
+
+# Auth
+
+## (http://localhost:3000/auth/register)
+
+- Post: Password, email and name are required. Password is encrypted and an welcome email is sent.
+
+## (http://localhost:3000/auth/login)
+
+- Post: Password, email and name are required. Returns a JSON with the token of the user (valid for 24h).
