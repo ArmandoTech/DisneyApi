@@ -11,6 +11,8 @@
 - Patch: Update a character
 - Delete: Delete a character
 
+### Query: http://localhost:3000/characters?movies=titleMovie
+
 ## (http://localhost:3000/characters/detail)
 
 - Get: Returns all the information of the characters
