@@ -14,6 +14,7 @@ export const { Character } = connDb.models;
 export const { Movie } = connDb.models;
 export const { Genre } = connDb.models;
 export const { User } = connDb.models;
+export const { CharacterMovie } = connDb.models;
 
 // Associations
 
